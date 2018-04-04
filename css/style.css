@@ -143,7 +143,7 @@ h6 {
     font-weight: 700;
 }
 
-#header #logo h1 a {
+#header #logo  a {
     color: #0c2e8a;
     line-height: 1;
     display: inline-block;
@@ -305,6 +305,7 @@ h6 {
 
 /* Nav Menu Arrows */
 
+/*
 .sf-arrows .sf-with-ul {
     padding-right: 22px;
 }
@@ -317,6 +318,7 @@ h6 {
     font-style: normal;
     font-weight: normal;
 }
+*/
 
 .sf-arrows ul .sf-with-ul:after {
     content: "\f105";
