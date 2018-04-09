@@ -1,5 +1,5 @@
 /*
-  
+
 */
 
 /*--------------------------------------------------------------
@@ -16,6 +16,8 @@ a {
     color: #50d8af;
     transition: 0.5s;
 }
+
+
 
 a:hover,
 a:active,
@@ -1091,7 +1093,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 .business-hours {
-background: #eee; 
+background: #eee;
 padding: 2px 14px;
 margin-top: -15px;
 position: relative;
@@ -1108,14 +1110,35 @@ border-bottom: 1px solid #a3a3a3
     text-align: left;
 color: #888;
 line-height: 25px;
-border-bottom: 1px solid #dedede; 
+border-bottom: 1px solid #dedede;
 }
 .business-hours li:last-child {
-border-bottom: none; 
+border-bottom: none;
 }
 .business-hours .opening-hours li.today {
-color: #ffac0c; 
+color: #ffac0c;
 }
+
+
+/*--------------------------------------------------------------
+# Posts and Articles
+
+-------------------------------------------------------------  */
+
+#a-posts {
+    color: #212529;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+#a-posts:hover {
+    color: #688caf;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
 
 /*--------------------------------------------------------------
 # Footer
